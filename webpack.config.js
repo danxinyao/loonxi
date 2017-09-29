@@ -52,7 +52,7 @@ var plugins = [
         allChunks: true
     }),
     // 自动分析重用模块并且打包单独文件
-    new CommonsChunkPlugin(production ? 'vendor.[hash]' : 'vendor'),
+    new CommonsChunkPlugin(production ? 'vendor' : 'vendor'),
 
     function () {
         return this.plugin('done', function (stats) {
