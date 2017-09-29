@@ -1,0 +1,18 @@
+//页面宽度
+@base: 1190px;
+@max-base: 1920px;
+
+// 颜色
+@primary-color: #23c4e1; // 主色
+@title-color: #333333; // 一级色
+@text-color: #23252e; // 二级色
+@explain-color: #999ca3; // 三级色
+
+//多行文本截断
+.lineClamp(@line:1) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: @line;
+    -webkit-box-orient: vertical;
+}
