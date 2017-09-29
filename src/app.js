@@ -36,7 +36,7 @@ const router = new VueRouter({
 sync(store,router)
 router.beforeEach((to, from, next) => {
     if (to.fullPath == '/') {
-        next('/demo')
+        next('/home')
     }
     else {
         next()

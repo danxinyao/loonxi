@@ -5,6 +5,7 @@ import layout from './layout/layout.vue'
 import wrapper from './wrapper/wrapper.vue'
 import header from './header/header.vue'
 import footer from './footer/footer.vue'
+import toolbar from './toolbar/index.vue' //右侧工具栏
 
 const install = function (Vue) {
     Vue.component(demo.name, demo)
@@ -14,6 +15,7 @@ const install = function (Vue) {
     Vue.component(wrapper.name, wrapper)
     Vue.component(header.name, header)
     Vue.component(footer.name, footer)
+    Vue.component(toolbar.name, toolbar)
 }
 
 export default install

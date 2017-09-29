@@ -6,6 +6,8 @@
         <router-view></router-view>
         <!-- 页脚 -->
         <pg-footer></pg-footer>
+        <!-- 右侧工具悬浮窗 -->
+        <pg-toolbar></pg-toolbar>
         <!-- 提示信息 -->
         <pg-hud :show="isShowHUD" :type="optionsHUD.type" :content="optionsHUD.content"></pg-hud>
     </div>
