@@ -12,7 +12,7 @@
                 <pg-icon name="zhengquetishi"></pg-icon>
             </div>
             <div class="title">
-                提示信息dan
+                提示信息dan1
             </div>
             <div>
                 <a href="javascript:void(0)" @click="hud('loading')">加载中</a>
